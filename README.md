@@ -185,6 +185,38 @@ Development and testing of a rule-based market intelligence system designed to e
 
 ---
 
+## Visualizations
+
+### Growth of $100 Investment
+
+![Growth of $100 Investment](growth_of_100.png)
+
+### Risk-Adjusted Performance
+
+![Risk-Adjusted Performance](risk_adjusted_performance.png)
+
+### Drawdown Analysis
+
+![Drawdown Analysis](drawdown_analysis.png)
+
+### Market Regime Analysis
+
+![Market Regime Analysis](market_regime_analysis.png)
+
+### Macroeconomic Sensitivity Heatmap
+
+![Macroeconomic Sensitivity Heatmap](macroeconomic_sensitivity_heatmap.png)
+
+### Sector-Level Macroeconomic Sensitivity
+
+![Sector-Level Macroeconomic Sensitivity](sector_macro_sensitivity.png)
+
+### Opportunity Score Performance
+
+![Opportunity Score Performance](opportunity_score_performance.png)
+
+---
+
 ## Key Features
 
 ### Monthly Return Analysis
