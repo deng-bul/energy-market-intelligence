@@ -4,7 +4,25 @@
 
 ---
 
-## Overview
+### Return Summary Statistics
+
+The table below provides a high-level overview of the historical performance and risk characteristics of the six energy equities analyzed between 2012 and 2025. The summary includes average monthly returns, annualized returns, volatility measures, and extreme monthly outcomes.
+
+![Return Summary Statistics](Return_Summary.png)
+
+#### Key Highlights
+
+- **Enphase Energy** delivered the strongest historical performance, generating an annualized return of **41.86%**, while also exhibiting the highest volatility (**83.64%**) and the largest single-month decline (**−53.61%**).
+- **First Solar** produced the second-highest annualized return (**33.17%**) with lower volatility than Enphase Energy.
+- **NextEra Energy** demonstrated a more balanced profile, combining an annualized return of **16.57%** with substantially lower volatility (**19.73%**).
+- Among traditional energy companies, **ConocoPhillips** generated the strongest annualized return (**12.69%**), while **ExxonMobil** and **Chevron** delivered more moderate but stable performance.
+- Renewable energy equities generally provided greater return potential, whereas traditional oil & gas firms exhibited lower volatility and more defensive risk characteristics.
+
+This initial comparison highlights the fundamental risk-return tradeoff within the energy sector: higher-growth renewable energy companies delivered stronger returns during the study period, but investors were required to accept significantly greater volatility and downside risk.
+
+--- 
+
+### Overview
 
 The **Energy Equity Intelligence Framework** is a financial data science and market intelligence project that examines how renewable energy and traditional oil & gas equities respond to changing commodity-market conditions, macroeconomic trends, and broader financial-market environments.
 
@@ -14,7 +32,7 @@ Rather than attempting to predict future stock prices, the framework is designed
 
 ---
 
-## Business Context
+### Business Context
 
 The global energy sector is undergoing a historic transformation.
 
@@ -33,11 +51,11 @@ Understanding how these factors interact is essential for investors, analysts, a
 
 ---
 
-## Research Objectives
+### Research Objectives
 
 This project was designed to answer three primary research questions:
 
-### 1. Performance and Risk
+#### 1. Performance and Risk
 
 How have renewable energy and oil & gas equities performed in terms of:
 
@@ -48,19 +66,19 @@ How have renewable energy and oil & gas equities performed in terms of:
 
 between 2012 and 2025?
 
-### 2. Macroeconomic Sensitivity
+#### 2. Macroeconomic Sensitivity
 
 To what extent do economic conditions and commodity-market dynamics influence energy-equity performance?
 
-### 3. Market Intelligence Signals
+#### 3. Market Intelligence Signals
 
 Can market-based and macroeconomic signals help identify periods when energy equities may become attractive for investment consideration?
 
 ---
 
-## Companies Analyzed
+### Companies Analyzed
 
-### Renewable Energy
+#### Renewable Energy
 
 | Company | Ticker |
 |----------|----------|
@@ -68,7 +86,7 @@ Can market-based and macroeconomic signals help identify periods when energy equ
 | First Solar | FSLR |
 | Enphase Energy | ENPH |
 
-### Oil & Gas
+#### Oil & Gas
 
 | Company | Ticker |
 |----------|----------|
@@ -76,7 +94,7 @@ Can market-based and macroeconomic signals help identify periods when energy equ
 | Chevron | CVX |
 | ConocoPhillips | COP |
 
-### Market and Commodity Benchmarks
+#### Market and Commodity Benchmarks
 
 | Asset | Ticker |
 |----------|----------|
@@ -85,15 +103,15 @@ Can market-based and macroeconomic signals help identify periods when energy equ
 
 ---
 
-## Data Sources
+### Data Sources
 
-### Financial Market Data
+#### Financial Market Data
 
 - Yahoo Finance
 - Daily adjusted closing prices
 - Monthly resampling for analysis
 
-### Macroeconomic Data
+#### Macroeconomic Data
 
 Federal Reserve Economic Data (FRED)
 
@@ -104,7 +122,7 @@ Federal Reserve Economic Data (FRED)
 | GS10 | 10-Year Treasury Yield |
 | GDP | Gross Domestic Product |
 
-### Study Period
+#### Study Period
 
 **April 2012 – December 2025**
 
@@ -119,17 +137,17 @@ This period captures:
 
 ---
 
-## Methodology
+### Methodology
 
 The project follows a structured financial analytics workflow consisting of seven stages.
 
-### 1. Data Collection
+#### 1. Data Collection
 
 - Financial market data from Yahoo Finance
 - Macroeconomic indicators from FRED
 - Equity, commodity, and benchmark data integration
 
-### 2. Data Quality Assessment and Preprocessing
+#### 2. Data Quality Assessment and Preprocessing
 
 - Missing-value analysis
 - Frequency standardization
@@ -137,7 +155,7 @@ The project follows a structured financial analytics workflow consisting of seve
 - Dataset alignment
 - Data validation
 
-### 3. Feature Engineering
+#### 3. Feature Engineering
 
 Created investment-oriented analytical variables including:
 
@@ -149,7 +167,7 @@ Created investment-oriented analytical variables including:
 - Market Intelligence Signals
 - Composite Opportunity Scores
 
-### 4. Exploratory Data Analysis
+#### 4. Exploratory Data Analysis
 
 Analysis of:
 
@@ -159,7 +177,7 @@ Analysis of:
 - Sector differences
 - Market relationships
 
-### 5. Performance and Risk Analysis
+#### 5. Performance and Risk Analysis
 
 Evaluation of:
 
@@ -168,7 +186,7 @@ Evaluation of:
 - Risk-adjusted performance
 - Drawdown characteristics
 
-### 6. Macroeconomic Sensitivity Analysis
+#### 6. Macroeconomic Sensitivity Analysis
 
 Assessment of relationships between stock returns and:
 
@@ -179,31 +197,31 @@ Assessment of relationships between stock returns and:
 - Treasury yields
 - Broad market performance
 
-### 7. Signal Framework Development and Evaluation
+#### 7. Signal Framework Development and Evaluation
 
 Development and testing of a rule-based market intelligence system designed to evaluate whether favorable market conditions are associated with stronger future returns.
 
 ---
 
-## Visualizations
+### Visualizations
 
-### Growth of $100 Investment
+#### Growth of $100 Investment
 
 ![Growth of $100 Investment](growth_of_100.png)
 
-### Risk-Adjusted Performance
+#### Risk-Adjusted Performance
 
 ![Risk-Adjusted Performance](risk_adjusted_performance.png)
 
-### Drawdown Analysis
+#### Drawdown Analysis
 
 ![Drawdown Analysis](drawdown_analysis.png)
 
-### Market Regime Analysis
+#### Market Regime Analysis
 
 ![Market Regime Analysis](market_regime_analysis.png)
 
-### Macroeconomic Sensitivity Heatmap
+#### Macroeconomic Sensitivity Heatmap
 
 ![Macroeconomic Sensitivity Heatmap](macroeconomic_sensitivity_heatmap.png)
 
@@ -211,27 +229,27 @@ Development and testing of a rule-based market intelligence system designed to e
 
 ![Sector-Level Macroeconomic Sensitivity](sector_macro_sensitivity.png)
 
-### Opportunity Score Performance
+#### Opportunity Score Performance
 
 ![Opportunity Score Performance](opportunity_score_performance.png)
 
 ---
 
-## Key Features
+### Key Features
 
-### Monthly Return Analysis
+#### Monthly Return Analysis
 
 Calculates and compares monthly returns across renewable and traditional energy companies.
 
-### Rolling Volatility Analysis
+#### Rolling Volatility Analysis
 
 Measures changing risk levels through time using six-month rolling volatility.
 
-### Drawdown Analysis
+#### Drawdown Analysis
 
 Evaluates downside risk by measuring declines from previous market peaks.
 
-### Market Regime Analysis
+#### Market Regime Analysis
 
 Examines stock performance under different market environments, including:
 
@@ -241,7 +259,7 @@ Examines stock performance under different market environments, including:
 - Bear markets
 - Changing interest-rate conditions
 
-### Macroeconomic Sensitivity Analysis
+#### Macroeconomic Sensitivity Analysis
 
 Evaluates relationships between energy equities and:
 
@@ -252,15 +270,15 @@ Evaluates relationships between energy equities and:
 - Crude Oil Prices
 - S&P 500 Performance
 
-### Market Intelligence Signal Framework
+#### Market Intelligence Signal Framework
 
 Develops rule-based investment-monitoring signals that identify historically favorable market environments.
 
 ---
 
-## Market Intelligence Signals
+### Market Intelligence Signals
 
-### Rate Relief Signal
+#### Rate Relief Signal
 
 Activated when the Federal Funds Rate declines or remains unchanged.
 
@@ -268,7 +286,7 @@ Activated when the Federal Funds Rate declines or remains unchanged.
 
 ---
 
-### Oil Momentum Signal
+#### Oil Momentum Signal
 
 Activated when crude oil generates positive monthly returns.
 
@@ -276,7 +294,7 @@ Activated when crude oil generates positive monthly returns.
 
 ---
 
-### Renewable Advantage Signal
+#### Renewable Advantage Signal
 
 Activated when:
 
@@ -287,7 +305,7 @@ Activated when:
 
 ---
 
-### Pullback Signal
+#### Pullback Signal
 
 Activated when a stock declines by more than 10% during a single month.
 
@@ -295,41 +313,41 @@ Activated when a stock declines by more than 10% during a single month.
 
 ---
 
-## Key Findings
+### Key Findings
 
-### Renewable Energy Delivered Higher Growth
+#### Renewable Energy Delivered Higher Growth
 
 Renewable-energy companies generated substantially stronger average returns than traditional oil & gas companies during the study period.
 
-### Higher Returns Came with Higher Risk
+#### Higher Returns Came with Higher Risk
 
 Enphase Energy and First Solar produced the highest return profiles but also exhibited significantly higher volatility and drawdowns.
 
-### NextEra Energy Demonstrated Defensive Characteristics
+#### NextEra Energy Demonstrated Defensive Characteristics
 
 NextEra Energy delivered renewable-energy exposure while maintaining the lowest volatility and smallest drawdown among the companies analyzed.
 
-### Oil & Gas Firms Showed Strong Commodity Sensitivity
+#### Oil & Gas Firms Showed Strong Commodity Sensitivity
 
 Traditional energy companies exhibited stronger relationships with crude oil prices.
 
-### Broader Market Conditions Matter
+#### Broader Market Conditions Matter
 
 The S&P 500 displayed meaningful positive relationships with most energy equities.
 
-### Multi-Factor Signals Show Promise
+#### Multi-Factor Signals Show Promise
 
 Periods characterized by multiple favorable market conditions generally produced stronger subsequent returns than isolated signal environments.
 
 ---
 
-## Technologies Used
+### Technologies Used
 
-### Programming Language
+#### Programming Language
 
 - Python
 
-### Libraries
+#### Libraries
 
 - Pandas
 - NumPy
@@ -338,13 +356,13 @@ Periods characterized by multiple favorable market conditions generally produced
 - yFinance
 - Pandas DataReader
 
-### Development Environment
+#### Development Environment
 
 - Jupyter Notebook
 
 ---
 
-## Repository Structure
+### Repository Structure
 
 ```text
 Energy-Equity-Intelligence-Framework/
@@ -365,7 +383,7 @@ Energy-Equity-Intelligence-Framework/
 
 ---
 
-## Future Enhancements
+### Future Enhancements
 
 Potential future improvements include:
 
@@ -380,7 +398,7 @@ Potential future improvements include:
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This project was developed for educational, analytical, and portfolio purposes only.
 
@@ -388,9 +406,9 @@ The findings presented do not constitute investment advice, financial recommenda
 
 ---
 
-## Author
+### Author
 
-### Deng Aguer Bul
+#### Deng Aguer Bul
 
 **Data Science Student**  
 University of Tampa
@@ -406,11 +424,9 @@ University of Tampa
 
 ---
 
-## Acknowledgments
+### Acknowledgments
 
 Data provided by:
 
 - Yahoo Finance
 - Federal Reserve Economic Data (FRED)
-
-Special thanks to the University of Tampa for supporting the academic and analytical development that contributed to this project.
